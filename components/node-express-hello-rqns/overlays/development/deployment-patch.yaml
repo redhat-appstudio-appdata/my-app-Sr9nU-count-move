@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: node-express-hello-rqns
+  namespace: mbasti-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:4a493a7171e14f966d6b47073435fbae6d0f5ee58b89e222fc70f4ef58e661c1
+        name: my-nodejs
+        resources: {}
+status: {}
