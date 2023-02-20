@@ -13,7 +13,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload@sha256:4a493a7171e14f966d6b47073435fbae6d0f5ee58b89e222fc70f4ef58e661c1
+      - image: quay.io/redhat-appstudio/user-workload@sha256:f200f8fd4ff40b7df5ba302133a558970b0af44823dc9f7b6b28ba49a30214b9
         name: my-nodejs
         resources: {}
 status: {}
